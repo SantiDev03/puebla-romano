@@ -1,0 +1,43 @@
+.home {
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+.titulo {
+  font-size: 3rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.descripcion {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto 40px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.banner {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.bienvenida {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.btn-turno {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
