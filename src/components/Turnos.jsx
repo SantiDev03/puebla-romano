@@ -38,7 +38,7 @@ function Turnos() {
 
   return (
     <div>
-      <h1>Turnos</h1>
+      <h2>Turnos</h2>
 
       <form onSubmit={handleSubmit}>
         <input
