@@ -1,16 +1,104 @@
-# React + Vite
+# 💈 Barbería Los Santi's
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada en React para la gestión de turnos en una barbería.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+- ✂️ Página principal con presentación de la barbería
+- 👨‍🔧 Sección de barberos
+- 💼 Sección de servicios
+- 📅 Reserva de turnos
+- 💾 Persistencia de datos con LocalStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React
+- ⚡ Vite
+- 🎨 CSS
+- 💾 LocalStorage
+- 🌐 Vercel (deploy)
+
+---
+
+## Estructura del proyecto
+
+```
+src/
+ ├── components/
+ │    ├── Home.jsx
+ │    ├── Barber.jsx
+ │    ├── Turnos.jsx
+ │    ├── Servicios.jsx
+ │    ├── Home.css
+ │    ├── Turnos.css
+ │
+ ├── assets/
+ ├── App.jsx
+ ├── App.css
+ └── main.jsx
+```
+
+---
+
+## Instalación y uso
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/SantiDev03/puebla-romano.git
+```
+
+2. Instalar dependencias:
+
+```bash
+npm install
+```
+
+3. Ejecutar el proyecto:
+
+```bash
+npm run dev
+```
+
+---
+
+## Deploy
+
+La aplicación se encuentra desplegada en:
+
+https://puebla-romano.vercel.app
+
+---
+
+## Autores
+
+- Santiago Romano
+- Santiago Puebla
+
+---
+
+## Estado del proyecto
+
+Proyecto finalizado
+Deploy realizado correctamente
+
+---
+
+## Notas
+
+Este proyecto fue desarrollado como práctica de desarrollo frontend utilizando React, aplicando conceptos como:
+
+- Componentización
+- Manejo de estado con hooks (`useState`, `useEffect`)
+- Persistencia de datos en el navegador
+- Trabajo en equipo con Git (Git Flow)
+
+---
+
+## 📸 Preview
+
+![Preview](./src/assets/bannerok.jpg)
