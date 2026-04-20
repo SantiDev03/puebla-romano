@@ -15,14 +15,14 @@ function Servicios() {
       className="seccion-servicios"
       style={{ textAlign: "center", color: "white", marginTop: "40px" }}
     >
-      <h2
+      <h1
         style={{
           display: "inline-block",
           paddingBottom: "2px",
         }}
       >
         Nuestros Servicios
-      </h2>
+      </h1>
       <div
         style={{
           display: "flex",

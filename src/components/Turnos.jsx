@@ -38,7 +38,7 @@ function Turnos() {
 
   return (
     <div>
-      <h2>Turnos</h2>
+      <h1>Turnos</h1>
 
       <form onSubmit={handleSubmit}>
         <input
@@ -70,7 +70,7 @@ function Turnos() {
         <button type="submit">Reservar</button>
       </form>
 
-      <h2>Turnos Reservados</h2>
+      <h1>Turnos Reservados</h1>
 
       <ul>
         {turnos.map((t, index) => (
